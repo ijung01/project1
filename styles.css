@@ -56,6 +56,8 @@ footer {
     /* width: 400px; */
 }
 
+.class
+
 /* ==============
    DIV FRAMEWORKS 
    everything that happens within the layout
@@ -68,15 +70,18 @@ footer {
 
 .content01 {
     float: left;
+    font-size: 2em;
     width: 800px;
-    height: 250px;
+    height: 400px;
     background-color: lightgoldenrodyellow;
+    overflow: hidden; 
 }
 .content02  {
     float: left;
     width: 400px;
-    height: 250px;
+    height: 400px;
     background-color: lightgoldenrodyellow;
+    overflow: hidden; 
 }
 .content03 {
     float: left;
@@ -91,7 +96,3 @@ footer {
 /* ==============
    ID STYLES
    ============== */
-#introduction {
-    font-weight: bold;
-    font-size: 2em;
-}
