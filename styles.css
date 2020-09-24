@@ -95,10 +95,14 @@ footer {
    tweak it here 
    ============== */
 .page {
-    /* background-color: lightsalmon; */
+    background-color: lightsalmon;
     width: 1200px;
     height: 1000px;
-    margin: 3em auto;
+    margin-top: 5em;
+    margin-bottom: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
 }
 
 .content01 {
@@ -108,6 +112,7 @@ footer {
     height: 600px;
     overflow: scroll;
     padding-right: 50px;
+    padding-top: 0px;
     /* background-color: lightgoldenrodyellow; */
 }
 
@@ -129,6 +134,7 @@ footer {
     width: 200px;
     height: 2vwh;
     padding: 25px 1em 0 0.25em;
+    overflow: scroll;
 }
 
 .content04 {
