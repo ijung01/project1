@@ -14,10 +14,6 @@
 .u-list-inline li {
     display: inline-block;
 }
-/* ==============
-   DIV FRAMEWORKS
-   ============== */
-.pgae 
 
 /* ==============
    BASE STYLES
@@ -33,13 +29,14 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
         Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     /* system font stack */
-    line-height: 1.2;
     /* page seetings / frames */
-    margin: 0 auto;
-    width: 1300px;
-    min-height: 100vh;
     padding: 2em 2em 2em 2em;
     text-align: center;
+    margin: 0 auto;
+    min-height: 100vh;
+    width: 1300px;
+    height: 800px;
+    line-height: 1.2;
 
     border: 1px solid red;
 }
@@ -55,6 +52,32 @@ footer {
     border: 1px solid red;
     padding: 2em 2em 2em 2em;
     width: 400px;
+}
+
+/* ==============
+   DIV FRAMEWORKS 
+   everything that happens within the layout
+   tweak it here 
+   ============== */
+   .page {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.content01 {
+    float: left;
+}
+.content02  {
+    float: left;
+}
+.content03 {
+    float: left;
+}
+.content04 {
+    float: left;
+}
+.content05 {
+    float: left;
 }
 
 /* ==============
