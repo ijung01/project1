@@ -56,6 +56,11 @@ footer {
     /* width: 400px; */
 }
 
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
 .dates {
     font-style: italic;
 }
@@ -66,7 +71,6 @@ footer {
    tweak it here 
    ============== */
 .page {
-    border: 10px solid red;
     background-color: lightsalmon;
     width: 1200px;
     height: 800px;
@@ -77,16 +81,17 @@ footer {
 .content01 {
     float: left;
     font-size: 2.5vw;
-    width: 800px;
-    height: 3vwh;
+    width: 850px;
+    height: 2.5vwh;
     background-color: lightgoldenrodyellow;
 }
 
 .content02 {
     float: left;
     font-size: 1.5vw;
-    width: 400px;
-    height: 2vwh;
+    width: 350px;
+    height: 600px;
+    text-overflow: hidden;
     background-color: lightgoldenrodyellow;
 }
 
