@@ -56,7 +56,9 @@ footer {
     /* width: 400px; */
 }
 
-.class
+.dates {
+font-style: italic; 
+}
 
 /* ==============
    DIV FRAMEWORKS 
@@ -66,25 +68,29 @@ footer {
    .page {
     margin: 0 auto;
     width: 1200px;
+    display: flex;
+  flex-wrap: wrap;
 }
 
 .content01 {
     float: left;
-    font-size: 2em;
+    font-size: 2.5vw;
     width: 800px;
-    height: 400px;
+    height: 3vwh;
     background-color: lightgoldenrodyellow;
-    overflow: hidden; 
 }
 .content02  {
     float: left;
+    font-size: 1.5vw;
     width: 400px;
-    height: 400px;
+    height: 2vwh;
     background-color: lightgoldenrodyellow;
-    overflow: hidden; 
 }
 .content03 {
     float: left;
+    font-size: 1.5vw;
+    width: 400px;
+    height: 2vwh;
 }
 .content04 {
     float: left;
