@@ -98,15 +98,14 @@ footer {
     /* background-color: lightsalmon; */
     width: 1200px;
     height: 1000px;
-    margin: 0 auto;
-    overflow: hidden;
+    margin: 3em auto;
 }
 
 .content01 {
     float: left;
     font-size: 3vw;
     width: 850px;
-    height: 400px;
+    height: 600px;
     overflow: scroll;
     padding-right: 50px;
     /* background-color: lightgoldenrodyellow; */
@@ -116,8 +115,9 @@ footer {
     float: left;
     font-size: 2vw;
     width: 350px;
-    height: 400px;
+    height: 600px;
     overflow: scroll;
+    padding-left: 25px;
     padding-right: 50px;
     /* background-color: lightgoldenrodyellow; */
 }
@@ -126,41 +126,34 @@ footer {
 
     float: left;
     font-size: 1.5vw;
-    width: 300px;
+    width: 200px;
     height: 2vwh;
-    overflow: scroll;
-    padding-top: 25px;
-    padding-right: 1em;
+    padding: 25px 1em 0 0.25em;
 }
 
 .content04 {
     float: left;
     font-size: 1.5vw;
-    width: 300px;
+    width: 400px;
     height: 2vwh;
-    overflow: scroll;
-    padding-top: 25px;
-    padding-right: 1em;
+    padding: 25px 1em 0 0.25em;
 }
 
 .content05 {
 
     float: left;
     font-size: 1.5vw;
-    width: 300px;
+    width: 250px;
     height: 2vwh;
-    overflow: scroll;
-    padding-top: 25px;
-    padding-right: 1em;
+    padding: 25px 1em 0 0.25em;
 }
 
 .content06 {
     float: left;
     font-size: 1.5vw;
-    width: 300px;
+    width: 250px;
     height: 2vwh;
-    overflow: scroll;
-    padding: 25px 0.5em 0 0.25em;
+    padding: 25px 1em 0 0.25em;
 }
 
 /* ==============
