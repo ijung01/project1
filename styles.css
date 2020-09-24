@@ -28,6 +28,7 @@
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background: gray;
+    width: 2px;
 }
 
 /* Handle on hover */
@@ -106,6 +107,7 @@ footer {
     width: 850px;
     height: 400px;
     overflow: scroll;
+    padding-right: 50px;
     /* background-color: lightgoldenrodyellow; */
 }
 
@@ -115,14 +117,18 @@ footer {
     width: 350px;
     height: 400px;
     overflow: scroll;
+    padding-right: 50px;
     /* background-color: lightgoldenrodyellow; */
 }
 
 .content03 {
+    border-left:
     float: left;
     font-size: 1.5vw;
     width: 250px;
     height: 2vwh;
+    padding-top: 25px;
+    padding-right: 50px;
 }
 
 .content04 {
@@ -130,6 +136,8 @@ footer {
     font-size: 1.5vw;
     width: 250px;
     height: 2vwh;
+    padding-top: 25px;
+    padding-right: 50px;
 }
 
 .content05 {
@@ -137,6 +145,8 @@ footer {
     font-size: 1.5vw;
     width: 250px;
     height: 2vwh;
+    padding-top: 25px;
+    padding-right: 50px;
 }
 
 .content06 {
@@ -144,6 +154,8 @@ footer {
     font-size: 1.5vw;
     width: 250px;
     height: 2vwh;
+    padding-top: 25px;
+    padding-right: 50px;
 }
 
 /* ==============
