@@ -15,6 +15,26 @@
     display: inline-block;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: lightgrey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: gray;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 /* ==============
    BASE STYLES
    ============== */
@@ -73,7 +93,7 @@ h2 {
 .page {
     background-color: lightsalmon;
     width: 1200px;
-    height: 800px;
+    height: 1000px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -82,7 +102,8 @@ h2 {
     float: left;
     font-size: 2.5vw;
     width: 850px;
-    height: 2.5vwh;
+    height: 400px;
+    overflow: scroll;
     background-color: lightgoldenrodyellow;
 }
 
@@ -90,26 +111,30 @@ h2 {
     float: left;
     font-size: 1.5vw;
     width: 350px;
-    height: 600px;
-    text-overflow: hidden;
+    height: 400px;
+    overflow: scroll;
     background-color: lightgoldenrodyellow;
 }
 
 .content03 {
     float: left;
     font-size: 1.5vw;
-    width: 400px;
+    width: 300px;
     height: 2vwh;
 }
 
 .content04 {
     float: left;
-
+    font-size: 1.5vw;
+    width: 300px;
+    height: 2vwh;
 }
 
 .content05 {
     float: left;
-
+    font-size: 1.5vw;
+    width: 300px;
+    height: 2vwh;
 }
 
 /* ==============
