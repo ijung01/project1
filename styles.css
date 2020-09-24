@@ -40,7 +40,7 @@ body {
     height: 800px;
     line-height: 1.2;
 
-    border: 1px solid red;
+    border: 1px solid blue;
 }
 
 h1,
@@ -57,7 +57,7 @@ footer {
 }
 
 .dates {
-font-style: italic; 
+    font-style: italic;
 }
 
 /* ==============
@@ -65,11 +65,11 @@ font-style: italic;
    everything that happens within the layout
    tweak it here 
    ============== */
-   .page {
-    margin: 0 auto;
+.page {
     width: 1200px;
     display: flex;
-  flex-wrap: wrap;
+    flex-wrap: wrap;
+    border: 10px solid red;
 }
 
 .content01 {
@@ -79,24 +79,30 @@ font-style: italic;
     height: 3vwh;
     background-color: lightgoldenrodyellow;
 }
-.content02  {
+
+.content02 {
     float: left;
     font-size: 1.5vw;
     width: 400px;
     height: 2vwh;
     background-color: lightgoldenrodyellow;
 }
+
 .content03 {
-    float: left;
+    display: flex;
     font-size: 1.5vw;
     width: 400px;
     height: 2vwh;
 }
+
 .content04 {
-    float: left;
+    display: flex;
+
 }
+
 .content05 {
-    float: left;
+    display: flex;
+
 }
 
 /* ==============
