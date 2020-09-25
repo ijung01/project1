@@ -79,7 +79,8 @@ h3 {
 }
 
 h1,
-h2 p,
+h2, 
+p,
 ul,
 header,
 footer {
@@ -117,15 +118,11 @@ footer {
     margin: 5em auto;
 }
 
-.main-content {
-    width: 100%; 
-    Height: 30%;
-    margin: 5em auto;
-}
 .content01 {
     float: left;
-    font-size: 3vw;
+    font-size: 2.5vw;
     width: 70%;
+    height: 600px;
     overflow: scroll;
     padding-right: 50px;
     padding-top: 0px;
@@ -134,8 +131,9 @@ footer {
 
 .content02 {
     float: left;
-    font-size: 2vw;
+    font-size: 1.5vw;
     width: 30%;
+    height: 600px;
     overflow: scroll;
     padding-left: 25px;
     padding-right: 50px;
@@ -145,16 +143,16 @@ footer {
 .content03 {
 
     float: left;
-    font-size: 1.5vw;
-    width: 200px;
+    font-size: 1vw;
+    width: 20%;
     height: 2vwh;
     padding: 25px 1em 0 0.25em;
 }
 
 .content04 {
     float: left;
-    font-size: 1.5vw;
-    width: 400px;
+    font-size: 1vw;
+    width: 30%;
     height: 2vwh;
     padding: 25px 1em 0 0.25em;
 }
@@ -162,16 +160,16 @@ footer {
 .content05 {
 
     float: left;
-    font-size: 1.5vw;
-    width: 250px;
+    font-size: 1vw;
+    width: 30%;
     height: 2vwh;
     padding: 25px 1em 0 0.25em;
 }
 
 .content06 {
     float: left;
-    font-size: 1.5vw;
-    width: 250px;
+    font-size: 1vw;
+    width: 10%;
     height: 2vwh;
     padding: 25px 1em 0 0.25em;
 }
@@ -183,11 +181,12 @@ Would this work when I apply them to every individual element?
 
 .u-clearfix::before,
 .u-clearfix::after {
-  content: " ";
-  display: table;
+    content: " ";
+    display: table;
 }
+
 .u-clearfix::after {
-  clear: both;
+    clear: both;
 }
 
 /* ==============
