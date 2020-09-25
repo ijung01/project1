@@ -69,14 +69,17 @@ h2 {
     text-transform: uppercase;
 }
 
+h2 {
+    padding-top: 1em;
+}
+
 h3 {
     font-size: 1.5vw;
+    padding-top: 1em;
 }
 
 h1,
-h2,
-h3,
-p,
+h2 p,
 ul,
 header,
 footer {
@@ -92,13 +95,15 @@ h3,
 p,
 ul,
 header,
-footer 
-{background-color: transparent;
-    border: 1px solid red;}
+footer {
+    /*background-color: transparent;
+    border: 1px solid red;*/
+}
 
 .dates {
     font-style: italic;
     font-size: 1vw;
+    padding-top: 1em;
 }
 
 /* ==============
