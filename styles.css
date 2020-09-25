@@ -180,6 +180,7 @@ footer {
 /* Corrects the layout around floated elements 
 Wasn't sure when and where to apply this... hmm 
 Would this work when I apply them to every individual element?
+*/
 
 .u-clearfix::before,
 .u-clearfix::after {
@@ -188,7 +189,7 @@ Would this work when I apply them to every individual element?
 }
 .u-clearfix::after {
   clear: both;
-}*/
+}
 
 /* ==============
    ID STYLES
