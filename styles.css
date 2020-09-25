@@ -75,7 +75,7 @@ h2 {
 
 h3 {
     font-size: 1.5vw;
-    padding-top: 1em;
+    padding-top: 0.5em;
 }
 
 h1,
@@ -88,17 +88,6 @@ footer {
     border: 1px solid red;
     width: 400px; */
     padding-bottom: 0.5em;
-}
-
-h1,
-h2,
-h3,
-p,
-ul,
-header,
-footer {
-    /*background-color: transparent;
-    border: 1px solid red;*/
 }
 
 .dates {
@@ -131,7 +120,7 @@ footer {
 
 .content02 {
     float: left;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     width: 30%;
     height: 600px;
     overflow: scroll;
@@ -143,7 +132,7 @@ footer {
 .content03 {
 
     float: left;
-    font-size: 1vw;
+    font-size: 1.3vw;
     width: 20%;
     height: 2vwh;
     padding: 25px 1em 0 0.25em;
@@ -151,8 +140,8 @@ footer {
 
 .content04 {
     float: left;
-    font-size: 1vw;
-    width: 30%;
+    font-size: 1.3vw;
+    width: 40%;
     height: 2vwh;
     padding: 25px 1em 0 0.25em;
 }
@@ -160,15 +149,15 @@ footer {
 .content05 {
 
     float: left;
-    font-size: 1vw;
-    width: 30%;
+    font-size: 1.3vw;
+    width: 20%;
     height: 2vwh;
     padding: 25px 1em 0 0.25em;
 }
 
 .content06 {
     float: left;
-    font-size: 1vw;
+    font-size: 1.3vw;
     width: 10%;
     height: 2vwh;
     padding: 25px 1em 0 0.25em;
