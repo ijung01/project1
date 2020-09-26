@@ -1,5 +1,6 @@
-Your Project
-============
+# Your Project
+
+I am adding new text 
 
 Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
 
@@ -16,9 +17,7 @@ Where you'll write the content of your website. You'll need to create this by us
 
 Drag in files, like images, into `assets` to add them to your project.
 
-
-About Glitch
-============
+# About Glitch
 
 Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
 

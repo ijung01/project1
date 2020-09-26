@@ -1,0 +1,184 @@
+/* ==============
+   UTILITY STYLES
+   ============== */
+
+/* Removes the default bullets and spacing from a list */
+.u-list-reset {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+/* Displays list items as inline block  */
+.u-list-inline li {
+    display: inline-block;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: lightgrey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: gray;
+    width: 2px;
+}
+
+/* ==============
+   BASE STYLES
+   ============== */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: greenyellow; */
+    color: hsl(190, 5%, 15%);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+        Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    /* system font stack */
+    /* page seetings / frames */
+    /* padding: 2em 2em 2em 2em; */
+    text-align: left;
+    margin: 0 auto;
+    width: 1300px;
+    min-height: 100vh;
+    line-height: 1.2;
+
+    /* border: 1px solid blue;
+    background-color: lightblue; */
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+h2 {
+    padding-top: 1em;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 1.5vw;
+    padding-top: 0.5em;
+}
+
+h1,
+h2,
+p,
+ul,
+header,
+footer {
+    /*background-color: transparent;
+    border: 1px solid red;
+    width: 400px; */
+    padding-bottom: 0.5em;
+}
+
+p,
+ul {
+    padding-top: 0.5em;
+}
+
+.dates {
+    font-style: italic;
+    font-size: 1vw;
+    padding-top: 1em;
+}
+
+/* ==============
+   DIV FRAMEWORKS 
+   everything that happens within the layout
+   tweak it here 
+   ============== */
+.page {
+    /* background-color: lightsalmon; */
+    width: 85%;
+    margin: 5em auto;
+}
+
+.content01 {
+    float: left;
+    font-size: 2vw;
+    width: 50%;
+    height: 600px;
+    overflow: scroll;
+    padding-right: 50px;
+    padding-top: 0px;
+    /* background-color: lightgoldenrodyellow; */
+}
+
+.content02 {
+    float: left;
+    font-size: 2vw;
+    width: 50%;
+    height: 600px;
+    overflow: scroll;
+    padding-left: 25px;
+    padding-right: 50px;
+    /* background-color: lightgoldenrodyellow; */
+}
+
+.content03 {
+
+    float: left;
+    font-size: 1vw;
+    width: 20%;
+    height: 2vwh;
+    padding: 25px 1em 0 0.25em;
+}
+
+.content04 {
+    float: left;
+    font-size: 1vw;
+    width: 40%;
+    height: 2vwh;
+    padding: 25px 1em 0 0.25em;
+}
+
+.content05 {
+
+    float: left;
+    font-size: 1vw;
+    width: 20%;
+    height: 2vwh;
+    padding: 25px 1em 0 0.25em;
+}
+
+.content06 {
+    float: left;
+    font-size: 1vw;
+    width: 10%;
+    height: 2vwh;
+    padding: 25px 1em 0 0.25em;
+}
+
+/* Corrects the layout around floated elements 
+Wasn't sure when and where to apply this... hmm 
+Would this work when I apply them to every individual element?
+*/
+
+.u-clearfix::before,
+.u-clearfix::after {
+    content: " ";
+    display: table;
+}
+
+.u-clearfix::after {
+    clear: both;
+}
+
+/* ==============
+   ID STYLES
+   ============== */
